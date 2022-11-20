@@ -21,7 +21,7 @@ struct CoffeShopDetailView: View {
                     Circle()
                         .opacity(0.5)
                     VStack {
-                        Image(systemName: "person.crop.circle.badge.plus")
+                        Image(systemName: "person.crop.circle.fill.badge.plus").renderingMode(.original).foregroundColor(.blue)
                         Text(coffeshop.name)
                     }
                     .foregroundColor(.white)
