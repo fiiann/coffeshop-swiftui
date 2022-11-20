@@ -11,6 +11,10 @@
 		950E7B3929291D1C0082ABB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E7B3829291D1C0082ABB6 /* ContentView.swift */; };
 		950E7B3B29291D1D0082ABB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950E7B3A29291D1D0082ABB6 /* Assets.xcassets */; };
 		950E7B3E29291D1D0082ABB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950E7B3D29291D1D0082ABB6 /* Preview Assets.xcassets */; };
+		950E7B4729291D610082ABB6 /* CoffeeShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E7B4629291D610082ABB6 /* CoffeeShopModel.swift */; };
+		950E7B4929291ED10082ABB6 /* CoffeShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E7B4829291ED10082ABB6 /* CoffeShopListView.swift */; };
+		950E7B4B29291EE10082ABB6 /* CoffeShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E7B4A29291EE10082ABB6 /* CoffeShopDetailView.swift */; };
+		950E7B4D2929DFB90082ABB6 /* ItemListCoffeeshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E7B4C2929DFB90082ABB6 /* ItemListCoffeeshop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		950E7B3829291D1C0082ABB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		950E7B3A29291D1D0082ABB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950E7B3D29291D1D0082ABB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		950E7B4629291D610082ABB6 /* CoffeeShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopModel.swift; sourceTree = "<group>"; };
+		950E7B4829291ED10082ABB6 /* CoffeShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShopListView.swift; sourceTree = "<group>"; };
+		950E7B4A29291EE10082ABB6 /* CoffeShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShopDetailView.swift; sourceTree = "<group>"; };
+		950E7B4C2929DFB90082ABB6 /* ItemListCoffeeshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoffeeshop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		950E7B3529291D1C0082ABB6 /* coffeshop */ = {
 			isa = PBXGroup;
 			children = (
+				950E7B4529291D480082ABB6 /* View */,
+				950E7B4429291D3C0082ABB6 /* Model */,
 				950E7B3629291D1C0082ABB6 /* coffeshopApp.swift */,
 				950E7B3829291D1C0082ABB6 /* ContentView.swift */,
 				950E7B3A29291D1D0082ABB6 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				950E7B3D29291D1D0082ABB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		950E7B4429291D3C0082ABB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				950E7B4629291D610082ABB6 /* CoffeeShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		950E7B4529291D480082ABB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				950E7B4829291ED10082ABB6 /* CoffeShopListView.swift */,
+				950E7B4A29291EE10082ABB6 /* CoffeShopDetailView.swift */,
+				950E7B4C2929DFB90082ABB6 /* ItemListCoffeeshop.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +167,10 @@
 			files = (
 				950E7B3929291D1C0082ABB6 /* ContentView.swift in Sources */,
 				950E7B3729291D1C0082ABB6 /* coffeshopApp.swift in Sources */,
+				950E7B4929291ED10082ABB6 /* CoffeShopListView.swift in Sources */,
+				950E7B4B29291EE10082ABB6 /* CoffeShopDetailView.swift in Sources */,
+				950E7B4D2929DFB90082ABB6 /* ItemListCoffeeshop.swift in Sources */,
+				950E7B4729291D610082ABB6 /* CoffeeShopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
